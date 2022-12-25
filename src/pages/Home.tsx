@@ -1,5 +1,12 @@
 import { FC } from 'react';
+import { Header, Hero, Portfolio } from '../components';
 
 export const Home: FC = () => {
-	return <h1 className='text-6xl font-bold underline'>Hello world!</h1>;
+	return (
+		<>
+			<Header />
+			<Hero />
+			<Portfolio />
+		</>
+	);
 };
